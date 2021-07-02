@@ -1,6 +1,23 @@
 body{
-    background-color: #f7f7f7;
+    background-color: #a59d9d;
+    overflow-x: hidden;
+    
 }
+body{
+    margin: 0px;
+    padding: 0px;
+}
+.ubrand{
+    height: 100%;
+    width: 70%;
+}
+
+
+label{
+    color: rgb(94, 16, 139);
+    font-weight: bold;
+}
+
 .smart-scroll{
     position: fixed;
     top: 0;
@@ -8,114 +25,74 @@ body{
     left: 0;
     z-index: 1030;
   }
-  #nb{
-	background-color:  #7952B3;
-	height: 150px;
-    color:  rgb(229, 233, 235);
-}
-  
-.Mark{
+
+  .Mark{
     position: absolute;
-    height: 200 px;
-    top: 200px;
+    height: 10 px;
+    top: 300px;
     left: 90px;
     font-weight: bold;
 }
 
-label{
-    color: rgb(94, 16, 139);
-}
-.container-bottom{
-	
-	background-color: #66bfbf;
-	padding: 50px 0 30px;	
-	width: 1283px;
-}
-
 .sub{
-    position: relative;
-    left: 500px;
     background-color: blueviolet;
     color: cornsilk;
 }
 
-.footer{
-    background-color: darkgreen;
-    width : 100%;
+.custnav{
+    background-color: #7952B3;
+    color: cornsilk;
 }
-
-.nav-link{
-    color: whitesmoke;
-}
-
 footer{
+    margin: 3%;
+    color: whitesmoke;
+    width: 90%;
+    height: 25%;
     position: absolute;
     background-color: #9166d3;
-    height: 210px;
-    width: 1100px;
-    left: .5px;
 }
-#main_nav{
-    color: coral;
+
+.form-group{
+    width: 60%;
+    margin: 3%;
 }
 
 .in{
-    color: whitesmoke;
-    display: flex;
-    justify-content: center;
-    padding-top: 20px;
+    position: relative;
+    left: 40%;
+    color :whitesmoke
 
 }
+.you{
+    position: relative;
+    left: 45%;
+    color :whitesmoke
 
-h5{
-    color: whitesmoke;
-    text-align: center;
-    left: 250px;
-    padding-top: 5px;
 }
-
 .about{
     color: whitesmoke;
-    padding-left: 10px;
-    padding-top: 5px;
     font-weight: bold;
+    margin-left: 1%;
+  
 }
- .contact{
-     color: whitesmoke;
-     padding-left: 150px;
-     padding-top: 5px;
-     font-weight: bold;
- }
 
- .kids{
-     width: 1100px;
-     height: 800px;
- }
+.contact{
+    color: whitesmoke;
+    font-weight: bold;
+    margin-left: 10%;
+   
+}
+.conform{
+    height: 25%;
+    width: 50%;
+}
+.tube{
+    justify-content: center;
+    padding-left: 20%;
+    padding-top: 5%;
 
- .res{
-     top : 500px;
-     justify-content: center;
- }
-
- .bluree{
-     filter: blur(5px);
- }
- .you{
-     position: relative;
-     left: 650px;
-     bottom: 65px;
-     color: whitesmoke;
- }
- .abtli{
-     position: relative;
-     justify-content: center;
-     left: 200px;
- }
-
- .mar{
-     top: 300px;
- }
-
- .foot{
-     top: 700px;
- }
+}
+li{
+    font-weight: bold;
+    padding-left: 60%;
+}
